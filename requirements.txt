@@ -1,23 +1,27 @@
 # Zewail Campus Digital Assistant — Dependencies
 # Install with: pip install -r requirements.txt
 # Then (once): playwright install chromium
+#
+# Covers both products:
+#   Product A — RAG Academic Advisor (phases 1-7)
+#   Product B — Learning Analytics & XAI Dashboard (learning_analytics_xai/)
 
-# Web scraping
+# ── Web scraping (Product A) ─────────────────────────────────────────────────
 requests==2.32.3
 beautifulsoup4==4.12.3
 playwright==1.60.0
 
-# PDF extraction
+# ── PDF extraction (Product A) ───────────────────────────────────────────────
 PyMuPDF==1.27.1
 
-# Embeddings + LLM
+# ── Embeddings + LLM (Product A) ─────────────────────────────────────────────
 openai==1.109.1
 tiktoken==0.8.0
 
-# Vector store
+# ── Vector store (Product A) ─────────────────────────────────────────────────
 chromadb==0.5.23
 
-# LangChain (RAG helpers)
+# ── LangChain (Product A RAG helpers) ────────────────────────────────────────
 langchain==0.3.15
 langchain-core==0.3.31
 langchain-openai==0.3.2
@@ -25,12 +29,28 @@ langchain-chroma==0.1.4
 langchain-text-splitters==0.3.5
 langchain-community==0.3.15
 
-# Streamlit UI
+# ── Machine Learning (Product B) ─────────────────────────────────────────────
+xgboost==3.2.0
+lightgbm==4.6.0
+scikit-learn==1.9.0
+
+# ── Explainability / XAI (Product B) ─────────────────────────────────────────
+shap==0.52.0
+
+# ── Data processing (Product B) ──────────────────────────────────────────────
+pandas==3.0.3
+numpy==2.4.6
+
+# ── Visualisation (Product B dashboard) ──────────────────────────────────────
+plotly==6.8.0
+matplotlib==3.11.0
+
+# ── Streamlit UI (both products) ─────────────────────────────────────────────
 streamlit==1.41.1
 
-# Utilities
+# ── Utilities ────────────────────────────────────────────────────────────────
 python-dotenv==1.0.1
 httpx==0.28.1
 
-# Testing
+# ── Testing ───────────────────────────────────────────────────────────────────
 pytest==9.0.3
