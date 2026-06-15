@@ -1,0 +1,162 @@
+{
+  "CSAI": {
+    "programme": "CSAI",
+    "school": "School of Computer Science and Engineering / AI",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 28
+  },
+  "SWE": {
+    "programme": "SWE",
+    "school": "School of Computer Science and Engineering / Software Engineering",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 0
+  },
+  "IT": {
+    "programme": "IT",
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 13
+  },
+  "DSAI": {
+    "programme": "DSAI",
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 29
+  },
+  "MECH": {
+    "programme": "MECH",
+    "school": "School of Engineering / Mechanical",
+    "total_credits": 140,
+    "core_credits": 91,
+    "elective_credits": 28,
+    "general_ed_credits": 21,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 0
+  },
+  "EEE": {
+    "programme": "EEE",
+    "school": "School of Engineering / Electrical",
+    "total_credits": 140,
+    "core_credits": 91,
+    "elective_credits": 28,
+    "general_ed_credits": 21,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 0
+  },
+  "CIV": {
+    "programme": "CIV",
+    "school": "School of Engineering / Civil",
+    "total_credits": 140,
+    "core_credits": 91,
+    "elective_credits": 28,
+    "general_ed_credits": 21,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 0
+  },
+  "ENGR": {
+    "programme": "ENGR",
+    "school": "School of Engineering",
+    "total_credits": 140,
+    "core_credits": 91,
+    "elective_credits": 28,
+    "general_ed_credits": 21,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 1
+  },
+  "MATH": {
+    "programme": "MATH",
+    "school": "School of Science / Mathematics",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 18
+  },
+  "PHYS": {
+    "programme": "PHYS",
+    "school": "School of Science / Physics",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 42
+  },
+  "CHEM": {
+    "programme": "CHEM",
+    "school": "School of Science / Chemistry",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 9
+  },
+  "BIOL": {
+    "programme": "BIOL",
+    "school": "School of Science / Biology",
+    "total_credits": 132,
+    "core_credits": 86,
+    "elective_credits": 26,
+    "general_ed_credits": 20,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 5
+  },
+  "BUS": {
+    "programme": "BUS",
+    "school": "School of Business",
+    "total_credits": 114,
+    "core_credits": 74,
+    "elective_credits": 23,
+    "general_ed_credits": 17,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 5
+  },
+  "FIN": {
+    "programme": "FIN",
+    "school": "School of Business / Finance",
+    "total_credits": 114,
+    "core_credits": 74,
+    "elective_credits": 23,
+    "general_ed_credits": 17,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 2
+  },
+  "MKT": {
+    "programme": "MKT",
+    "school": "School of Business / Marketing",
+    "total_credits": 114,
+    "core_credits": 74,
+    "elective_credits": 23,
+    "general_ed_credits": 17,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 0
+  },
+  "ACC": {
+    "programme": "ACC",
+    "school": "School of Business / Accounting",
+    "total_credits": 114,
+    "core_credits": 74,
+    "elective_credits": 23,
+    "general_ed_credits": 17,
+    "minimum_gpa": 2.0,
+    "known_courses_count": 0
+  }
+}

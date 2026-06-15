@@ -1,0 +1,52 @@
+{
+  "feature_columns": [
+    "avg_attendance",
+    "avg_assignments",
+    "avg_quizzes",
+    "avg_labs",
+    "avg_midterm",
+    "avg_final",
+    "avg_overall",
+    "semester",
+    "credits_registered",
+    "credits_passed",
+    "failed_courses",
+    "attendance_risk_score",
+    "course_difficulty_index",
+    "failed_course_ratio",
+    "performance_trend",
+    "credit_completion_ratio",
+    "academic_consistency",
+    "study_efficiency",
+    "semester_momentum",
+    "programme_encoded",
+    "school_encoded"
+  ],
+  "target_gpa_col": "target_gpa",
+  "target_risk_col": "target_risk",
+  "risk_labels": {
+    "0": "Low Risk",
+    "1": "Medium Risk",
+    "2": "High Risk"
+  },
+  "programme_difficulty_map": {
+    "CSAI": 0.55,
+    "DSAI": 0.62,
+    "SWE": 0.4,
+    "MECH": 0.73,
+    "EEE": 0.8,
+    "CIV": 0.75,
+    "MATH": 0.82,
+    "PHYS": 0.8,
+    "CHEM": 0.71,
+    "BUS": 0.18,
+    "FIN": 0.22
+  },
+  "school_encoding_map": {
+    "BUS": 0,
+    "CS&AI": 1,
+    "ENGR": 2,
+    "SCI": 3
+  },
+  "n_samples": 7500
+}

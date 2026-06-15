@@ -1,0 +1,2717 @@
+[
+  {
+    "code": "BUS399",
+    "prefix": "BUS",
+    "number": "399",
+    "title": "Internship",
+    "credits": 3,
+    "prerequisites": [
+      "BUS399"
+    ],
+    "school": "School of Business",
+    "sources": [
+      "BUS - Curricula 2023.pdf",
+      "School of BUS - Catalog.pdf"
+    ]
+  },
+  {
+    "code": "BUS499",
+    "prefix": "BUS",
+    "number": "499",
+    "title": "Capstone Project",
+    "credits": 3,
+    "prerequisites": [
+      "BUS499"
+    ],
+    "school": "School of Business",
+    "sources": [
+      "BUS - Curricula 2023.pdf",
+      "School of BUS - Catalog.pdf"
+    ]
+  },
+  {
+    "code": "CSAI100",
+    "prefix": "CSAI",
+    "number": "100",
+    "title": "Introduction to Computational Sciences and AI",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI100"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI101",
+    "prefix": "CSAI",
+    "number": "101",
+    "title": "Fundamentals of Programming and Computer Science",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI101"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI102",
+    "prefix": "CSAI",
+    "number": "102",
+    "title": "Digital Logic and Computer Architecture",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI102"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI151",
+    "prefix": "CSAI",
+    "number": "151",
+    "title": "Object‐Oriented Programming",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI101",
+      "CSAI151"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI201",
+    "prefix": "CSAI",
+    "number": "201",
+    "title": "Data Structures",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI151",
+      "CSAI201",
+      "MATH105"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI202",
+    "prefix": "CSAI",
+    "number": "202",
+    "title": "Introduction to Database Systems",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI151",
+      "CSAI202",
+      "CSAI302"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI203",
+    "prefix": "CSAI",
+    "number": "203",
+    "title": "Introduction to Software Engineering",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI101",
+      "CSAI203",
+      "IT308",
+      "CSAI253"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI204",
+    "prefix": "CSAI",
+    "number": "204",
+    "title": "Operating Systems",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI201",
+      "CSAI204"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI205",
+    "prefix": "CSAI",
+    "number": "205",
+    "title": "Fundamentals of Circuits and Electronics",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI205"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI251",
+    "prefix": "CSAI",
+    "number": "251",
+    "title": "Algorithm Design and Analysis",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI201",
+      "CSAI251"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI252",
+    "prefix": "CSAI",
+    "number": "252",
+    "title": "Introduction to Computer Networks",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI252"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI253",
+    "prefix": "CSAI",
+    "number": "253",
+    "title": "Machine Learning",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI201",
+      "MATH105",
+      "CSAI253"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI301",
+    "prefix": "CSAI",
+    "number": "301",
+    "title": "Artificial Intelligence",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI201",
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI302",
+    "prefix": "CSAI",
+    "number": "302",
+    "title": "Advanced Database Systems",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI202",
+      "CSAI302"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI351",
+    "prefix": "CSAI",
+    "number": "351",
+    "title": "Principles and Practices for Secure Computing",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI201",
+      "CSAI351"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI399",
+    "prefix": "CSAI",
+    "number": "399",
+    "title": "Internship",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI399"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI498",
+    "prefix": "CSAI",
+    "number": "498",
+    "title": "Senior Project - Part 1",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI498"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "CSAI499",
+    "prefix": "CSAI",
+    "number": "499",
+    "title": "Senior Project - Part 2",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI498",
+      "CSAI499"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI103",
+    "prefix": "DSAI",
+    "number": "103",
+    "title": "Data acquisition in data science (ETL)",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI101",
+      "DSAI103"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI104",
+    "prefix": "DSAI",
+    "number": "104",
+    "title": "Knowledge Representation and Reasoning",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI101",
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI201",
+    "prefix": "DSAI",
+    "number": "201",
+    "title": "Data Mining and Information Retrieval",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI202"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "DSAI202",
+    "prefix": "DSAI",
+    "number": "202",
+    "title": "Data Governance",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "DSAI203",
+    "prefix": "DSAI",
+    "number": "203",
+    "title": "Data Integration and Visualization",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI103"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI305",
+    "prefix": "DSAI",
+    "number": "305",
+    "title": "Interpretability & Explainability in AI",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI253",
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI307",
+    "prefix": "DSAI",
+    "number": "307",
+    "title": "Statistical Inference",
+    "credits": 3,
+    "prerequisites": [
+      "MATH105"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "MATH105",
+    "prefix": "MATH",
+    "number": "105",
+    "title": "In this course the students learn how to use statistics to draw conclusions abou",
+    "credits": 3,
+    "prerequisites": [
+      "MATH105",
+      "MATH103"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI308",
+    "prefix": "DSAI",
+    "number": "308",
+    "title": "Deep Learning",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI253",
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI325",
+    "prefix": "DSAI",
+    "number": "325",
+    "title": "Introduction to Information Theory",
+    "credits": 3,
+    "prerequisites": [
+      "MATH105"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI352",
+    "prefix": "DSAI",
+    "number": "352",
+    "title": "Computer Vision",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI353",
+    "prefix": "DSAI",
+    "number": "353",
+    "title": "Natural language processing",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI402",
+    "prefix": "DSAI",
+    "number": "402",
+    "title": "Reinforcement Learning",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI403",
+    "prefix": "DSAI",
+    "number": "403",
+    "title": "Nature inspired computation",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI406",
+    "prefix": "DSAI",
+    "number": "406",
+    "title": "Machine Learning Engineering for Production (MLOps)",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI413",
+    "prefix": "DSAI",
+    "number": "413",
+    "title": "Multimedia Analytics",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308",
+      "DSAI413"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI414",
+    "prefix": "DSAI",
+    "number": "414",
+    "title": "Social Analytics",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI415",
+    "prefix": "DSAI",
+    "number": "415",
+    "title": "Cloud software development",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI416",
+    "prefix": "DSAI",
+    "number": "416",
+    "title": "GIS and spatial Analytics",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI308"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI417",
+    "prefix": "DSAI",
+    "number": "417",
+    "title": "Chatbots",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI456"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI456",
+    "prefix": "DSAI",
+    "number": "456",
+    "title": "This course aims to teach students how to build, analyze and deploy chatbots. It",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI456"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI418",
+    "prefix": "DSAI",
+    "number": "418",
+    "title": "Conversational Agents",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI456"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI427",
+    "prefix": "DSAI",
+    "number": "427",
+    "title": "Big Data Analytics",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI253"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI431",
+    "prefix": "DSAI",
+    "number": "431",
+    "title": "Fuzzy logic and fuzzy system",
+    "credits": 3,
+    "prerequisites": [
+      "MATH205"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "MATH205",
+    "prefix": "MATH",
+    "number": "205",
+    "title": "This course introduces the fuzzy logic and fuzzy system which is a branch of man",
+    "credits": 3,
+    "prerequisites": [
+      "MATH205"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI433",
+    "prefix": "DSAI",
+    "number": "433",
+    "title": "Game Theory",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI473",
+    "prefix": "DSAI",
+    "number": "473",
+    "title": "Data warehousing",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI473"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "DSAI490",
+    "prefix": "DSAI",
+    "number": "490",
+    "title": "Selected Topics in Data science and AI",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT101",
+    "prefix": "IT",
+    "number": "101",
+    "title": "Shell and Script Programming with UNIX",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI101"
+    ],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT102",
+    "prefix": "IT",
+    "number": "102",
+    "title": "Ethical Hacking and Defense",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI101"
+    ],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT103",
+    "prefix": "IT",
+    "number": "103",
+    "title": "Fundamentals of Information and Communication Systems",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT205",
+    "prefix": "IT",
+    "number": "205",
+    "title": "Enterprise System Architecture",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT206",
+    "prefix": "IT",
+    "number": "206",
+    "title": "Fundamentals of IT Governance and Risk Management",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT220",
+    "prefix": "IT",
+    "number": "220",
+    "title": "Networks installation and Maintenance",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI252"
+    ],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT222",
+    "prefix": "IT",
+    "number": "222",
+    "title": "Fundamentals of Multimedia Creation, Storage and Transfer",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI252"
+    ],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT308",
+    "prefix": "IT",
+    "number": "308",
+    "title": "Cloud Computing Architecture",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI201",
+      "IT308",
+      "IT310"
+    ],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT309",
+    "prefix": "IT",
+    "number": "309",
+    "title": "IT User-Experience Design",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT310",
+    "prefix": "IT",
+    "number": "310",
+    "title": "Foundations of Cybersecurity and Security Management",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI252",
+      "IT310"
+    ],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT401",
+    "prefix": "IT",
+    "number": "401",
+    "title": "Data Centers",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI252",
+      "IT401"
+    ],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT402",
+    "prefix": "IT",
+    "number": "402",
+    "title": "Fundamentals of Cybersecurity and Encryption",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "IT411",
+    "prefix": "IT",
+    "number": "411",
+    "title": "Enterprise Resources Planning",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / Information Technology",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "MATH103",
+    "prefix": "MATH",
+    "number": "103",
+    "title": "Calculus for Computational Sciences",
+    "credits": 3,
+    "prerequisites": [
+      "MATH103",
+      "MATH104"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "MATH104",
+    "prefix": "MATH",
+    "number": "104",
+    "title": "Linear Algebra",
+    "credits": 3,
+    "prerequisites": [
+      "MATH104"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "MATH307",
+    "prefix": "MATH",
+    "number": "307",
+    "title": "Numerical Methods",
+    "credits": 3,
+    "prerequisites": [
+      "MATH104"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "MATH303",
+    "prefix": "MATH",
+    "number": "303",
+    "title": "Linear and Non-linear Programming for Computational Sciences",
+    "credits": 3,
+    "prerequisites": [
+      "MATH103",
+      "MATH104"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "PHYS103",
+    "prefix": "PHYS",
+    "number": "103",
+    "title": "Physics 1",
+    "credits": 3,
+    "prerequisites": [
+      "MATH103"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "PHYS104",
+    "prefix": "PHYS",
+    "number": "104",
+    "title": "Physics 2",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Physics",
+    "sources": [
+      "CSAI - Catalog 2023.pdf",
+      "CSAI - Catalog 2024.pdf",
+      "CSAI - Curricula 2022.pdf",
+      "School of CSAI - Catalog 2022.pdf"
+    ]
+  },
+  {
+    "code": "PHYS113",
+    "prefix": "PHYS",
+    "number": "113",
+    "title": "Physics 1 (Theory)",
+    "credits": 3,
+    "prerequisites": [
+      "MATH103"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "CSAI - Catalog 2024.pdf"
+    ]
+  },
+  {
+    "code": "PHYS123",
+    "prefix": "PHYS",
+    "number": "123",
+    "title": "Physics 1 (Lab)",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Physics",
+    "sources": [
+      "CSAI - Catalog 2024.pdf"
+    ]
+  },
+  {
+    "code": "CSAI490",
+    "prefix": "CSAI",
+    "number": "490",
+    "title": "Strategic Governance of",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "CSAI - Curricula 2022.pdf"
+    ]
+  },
+  {
+    "code": "BIOL101",
+    "prefix": "BIOL",
+    "number": "101",
+    "title": "Biology I",
+    "credits": 3,
+    "prerequisites": [
+      "BIOL101",
+      "MATH102",
+      "CSCI101"
+    ],
+    "school": "School of Science / Biology",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "BIOL111",
+    "prefix": "BIOL",
+    "number": "111",
+    "title": "This course provides foundation to the general concepts of life and cellular bio",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Biology",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "BIOL102",
+    "prefix": "BIOL",
+    "number": "102",
+    "title": "Biology II",
+    "credits": 3,
+    "prerequisites": [
+      "BIOL102",
+      "CSCI101",
+      "MATH102",
+      "CHEM202",
+      "PHYS201",
+      "CHEM201",
+      "BMS204",
+      "BMS211",
+      "BMS212"
+    ],
+    "school": "School of Science / Biology",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "BIOL112",
+    "prefix": "BIOL",
+    "number": "112",
+    "title": "Prereq: BIOL 101",
+    "credits": 3,
+    "prerequisites": [
+      "BIOL101"
+    ],
+    "school": "School of Science / Biology",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM201",
+    "prefix": "CHEM",
+    "number": "201",
+    "title": "This course covers the fundamentals of biochemistry including structure, functio",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM201",
+      "CHEM203",
+      "BMS201",
+      "PHYS202"
+    ],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "MATH201",
+    "prefix": "MATH",
+    "number": "201",
+    "title": "The course will introduce the basic concepts in numerical analysis, numerical",
+    "credits": 3,
+    "prerequisites": [
+      "MATH201",
+      "BMS321",
+      "MATH202",
+      "MATH403",
+      "MATH102",
+      "CHEM202",
+      "PHYS101"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CHEM202",
+    "prefix": "CHEM",
+    "number": "202",
+    "title": "OR PHYS 201",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM202",
+      "PHYS201",
+      "BMS333",
+      "CHEM101",
+      "BIOL102",
+      "PHYS202",
+      "MATH202",
+      "BMS339"
+    ],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM203",
+    "prefix": "CHEM",
+    "number": "203",
+    "title": "AND BMS 339",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM203",
+      "BMS339",
+      "BMS333",
+      "CHEM201"
+    ],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "BIOL202",
+    "prefix": "BIOL",
+    "number": "202",
+    "title": "AND BIOL 204",
+    "credits": 3,
+    "prerequisites": [
+      "BIOL202",
+      "BIOL204"
+    ],
+    "school": "School of Science / Biology",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM101",
+    "prefix": "CHEM",
+    "number": "101",
+    "title": "Chemistry I",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM101",
+      "CHEM103",
+      "PHYS102",
+      "PHYS202"
+    ],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM111",
+    "prefix": "CHEM",
+    "number": "111",
+    "title": "This course covers the basics of general and physical chemistry required for all",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM102",
+    "prefix": "CHEM",
+    "number": "102",
+    "title": "Chemistry II",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM102",
+      "MATSCI201",
+      "PHYS102"
+    ],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM112",
+    "prefix": "CHEM",
+    "number": "112",
+    "title": "Prereq: CHEM 101",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM101"
+    ],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM211",
+    "prefix": "CHEM",
+    "number": "211",
+    "title": "Prereq: CHEM 101",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM101",
+      "CHEM102"
+    ],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "CHEM212",
+    "prefix": "CHEM",
+    "number": "212",
+    "title": "Analytical & Physical Chemistry Lab",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Chemistry",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "ENGR207",
+    "prefix": "ENGR",
+    "number": "207",
+    "title": "Fluid Mechanics",
+    "credits": 3,
+    "prerequisites": [
+      "MATH102",
+      "PHYS101",
+      "ENGR207",
+      "MATH201"
+    ],
+    "school": "School of Engineering",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "MATH102",
+    "prefix": "MATH",
+    "number": "102",
+    "title": "AND PHYS 101",
+    "credits": 3,
+    "prerequisites": [
+      "MATH102",
+      "PHYS101",
+      "MATH101"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "MATH101",
+    "prefix": "MATH",
+    "number": "101",
+    "title": "Calculus I",
+    "credits": 3,
+    "prerequisites": [
+      "MATH101",
+      "MATH201"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "MATH202",
+    "prefix": "MATH",
+    "number": "202",
+    "title": "Ordinary Differential Equations",
+    "credits": 3,
+    "prerequisites": [
+      "MATH102",
+      "MATH202"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "MATH301",
+    "prefix": "MATH",
+    "number": "301",
+    "title": "Probability and Statistics",
+    "credits": 3,
+    "prerequisites": [
+      "MATH102"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "MATH302",
+    "prefix": "MATH",
+    "number": "302",
+    "title": "Partial Differential Equations and Complex Analysis",
+    "credits": 3,
+    "prerequisites": [
+      "MATH202"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "MATH306",
+    "prefix": "MATH",
+    "number": "306",
+    "title": "Numerical Analysis",
+    "credits": 3,
+    "prerequisites": [
+      "MATH201",
+      "MATH202",
+      "MATH306"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "MATH308",
+    "prefix": "MATH",
+    "number": "308",
+    "title": "Discrete Mathematics",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "MATH310",
+    "prefix": "MATH",
+    "number": "310",
+    "title": "Abstract Algebra",
+    "credits": 3,
+    "prerequisites": [
+      "MATH201"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "MATH403",
+    "prefix": "MATH",
+    "number": "403",
+    "title": "Introduction to Real Analysis and Topology",
+    "credits": 3,
+    "prerequisites": [
+      "MATH101",
+      "MATH201",
+      "MATH403"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "PHYS202",
+    "prefix": "PHYS",
+    "number": "202",
+    "title": "The course will provide a valuable introduction and an overview of the basic",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS202",
+      "MATH202",
+      "PHYS102",
+      "PHYS201",
+      "NANOSC303"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "PHYS102",
+    "prefix": "PHYS",
+    "number": "102",
+    "title": "This course is a substantial introduction to quantum mechanics and how to use it",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS102",
+      "PHYS101",
+      "MATH101",
+      "MATH202",
+      "MATH102"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "PHYS101",
+    "prefix": "PHYS",
+    "number": "101",
+    "title": "Introduction to Classical Mechanics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS101",
+      "MATH101"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf",
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "PHYS111",
+    "prefix": "PHYS",
+    "number": "111",
+    "title": "Introduction to Classical Mechanics Lab",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "PHYS112",
+    "prefix": "PHYS",
+    "number": "112",
+    "title": "Introduction to Electromagnetism Lab",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "PHYS201",
+    "prefix": "PHYS",
+    "number": "201",
+    "title": "Thermodynamics, Wave Motion and Optics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS201"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "PHYS211",
+    "prefix": "PHYS",
+    "number": "211",
+    "title": "Prereq: PHYS 102",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS102",
+      "MATH102"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "PHYS204",
+    "prefix": "PHYS",
+    "number": "204",
+    "title": "Analytical Mechanics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS101"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS205",
+    "prefix": "PHYS",
+    "number": "205",
+    "title": "Introduction to Modern Astrophysics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS101",
+      "PHYS205",
+      "MATH403",
+      "MATH201"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS208",
+    "prefix": "PHYS",
+    "number": "208",
+    "title": "Electrodynamics I",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS102",
+      "PHYS208"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS210",
+    "prefix": "PHYS",
+    "number": "210",
+    "title": "Advanced Electromagnetism",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS102"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS212",
+    "prefix": "PHYS",
+    "number": "212",
+    "title": "Modern Physics Lab",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf",
+      "SCI UnderGrad Course Catalog 2021.pdf"
+    ]
+  },
+  {
+    "code": "PHYS218",
+    "prefix": "PHYS",
+    "number": "218",
+    "title": "Vector Calculus",
+    "credits": 3,
+    "prerequisites": [
+      "MATH102"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS308",
+    "prefix": "PHYS",
+    "number": "308",
+    "title": "Electrodynamics II",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS208"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS311",
+    "prefix": "PHYS",
+    "number": "311",
+    "title": "Thermal and Statistical Physics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS201",
+      "PHYS311"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS316",
+    "prefix": "PHYS",
+    "number": "316",
+    "title": "Mathematical Physics I",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS316"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS323",
+    "prefix": "PHYS",
+    "number": "323",
+    "title": "Quantum Mechanics I",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS202",
+      "PHYS323"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS326",
+    "prefix": "PHYS",
+    "number": "326",
+    "title": "Mathematical Physics II",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS346",
+      "MATH201",
+      "MATH202"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS346",
+    "prefix": "PHYS",
+    "number": "346",
+    "title": "AND MATH 201 AND MATH 202",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS346",
+      "MATH201",
+      "MATH202",
+      "PHYS316"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf"
+    ]
+  },
+  {
+    "code": "PHYS327",
+    "prefix": "PHYS",
+    "number": "327",
+    "title": "Observational Astrophysics Laboratory",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS205"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS331",
+    "prefix": "PHYS",
+    "number": "331",
+    "title": "Stellar Structure and Evolution",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS205",
+      "PHYS331"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS348",
+    "prefix": "PHYS",
+    "number": "348",
+    "title": "Quantum Mechanics II",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS323",
+      "PHYS348"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS356",
+    "prefix": "PHYS",
+    "number": "356",
+    "title": "Mathematical Physics II",
+    "credits": 3,
+    "prerequisites": [
+      "MATH201"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS364",
+    "prefix": "PHYS",
+    "number": "364",
+    "title": "Biological Physics",
+    "credits": 3,
+    "prerequisites": [
+      "BIOL102",
+      "CHEM202",
+      "PHYS201"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS399",
+    "prefix": "PHYS",
+    "number": "399",
+    "title": "Internship",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS399"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS405",
+    "prefix": "PHYS",
+    "number": "405",
+    "title": "Cosmology",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS205",
+      "PHYS405"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS416",
+    "prefix": "PHYS",
+    "number": "416",
+    "title": "Galactic & Extragalactic Astrophysics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS205",
+      "PHYS416"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS420",
+    "prefix": "PHYS",
+    "number": "420",
+    "title": "The Solar System",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS205"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS422",
+    "prefix": "PHYS",
+    "number": "422",
+    "title": "Astrophysical Fluid Dynamics",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS430",
+    "prefix": "PHYS",
+    "number": "430",
+    "title": "Quantum Mechanics III",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS348",
+      "PHYS430"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS431",
+    "prefix": "PHYS",
+    "number": "431",
+    "title": "Quantum Field Theory and Particle Phys",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS323",
+      "PHYS431"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS432",
+    "prefix": "PHYS",
+    "number": "432",
+    "title": "Advanced Dynamics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS101"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS438",
+    "prefix": "PHYS",
+    "number": "438",
+    "title": "Compact Objects & High Energy Astrophysics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS205"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS450",
+    "prefix": "PHYS",
+    "number": "450",
+    "title": "Computational Physics",
+    "credits": 3,
+    "prerequisites": [
+      "CSCI101"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS453",
+    "prefix": "PHYS",
+    "number": "453",
+    "title": "Gravity & General Relativity",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS455",
+    "prefix": "PHYS",
+    "number": "455",
+    "title": "Mathematical Physics III",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS316"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS498",
+    "prefix": "PHYS",
+    "number": "498",
+    "title": "Senior Project I",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS498"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "PHYS499",
+    "prefix": "PHYS",
+    "number": "499",
+    "title": "Senior Project II",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS498"
+    ],
+    "school": "School of Science / Physics",
+    "sources": [
+      "SCI - Catalog 2023.pdf",
+      "SCI - Catalog 2024.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "MATH404",
+    "prefix": "MATH",
+    "number": "404",
+    "title": "MATH 404",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "SCI - Curricula 2021.pdf",
+      "SCI - Curricula 2022.pdf",
+      "SCI Curricula 2023.pdf"
+    ]
+  },
+  {
+    "code": "CSAI303",
+    "prefix": "CSAI",
+    "number": "303",
+    "title": "Computer Vision",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI302"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI304",
+    "prefix": "CSAI",
+    "number": "304",
+    "title": "Natural Language Processing",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI305",
+    "prefix": "CSAI",
+    "number": "305",
+    "title": "Reinforcement Learning",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI401",
+    "prefix": "CSAI",
+    "number": "401",
+    "title": "AI Ethics and Society",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI402",
+    "prefix": "CSAI",
+    "number": "402",
+    "title": "AI Research Project",
+    "credits": 6,
+    "prerequisites": [
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "DSAI301",
+    "prefix": "DSAI",
+    "number": "301",
+    "title": "Big Data Analytics",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI201"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "DSAI302",
+    "prefix": "DSAI",
+    "number": "302",
+    "title": "Data Visualization",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI201"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "DSAI401",
+    "prefix": "DSAI",
+    "number": "401",
+    "title": "Recommender Systems",
+    "credits": 3,
+    "prerequisites": [
+      "DSAI301",
+      "CSAI301"
+    ],
+    "school": "School of Computer Science and Engineering / Data Science & AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI206",
+    "prefix": "CSAI",
+    "number": "206",
+    "title": "Software Engineering",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI201"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI207",
+    "prefix": "CSAI",
+    "number": "207",
+    "title": "Cybersecurity",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI205"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI208",
+    "prefix": "CSAI",
+    "number": "208",
+    "title": "Cloud Computing",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI204"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "CSAI209",
+    "prefix": "CSAI",
+    "number": "209",
+    "title": "Web Development",
+    "credits": 3,
+    "prerequisites": [
+      "CSAI102"
+    ],
+    "school": "School of Computer Science and Engineering / AI",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "MATH203",
+    "prefix": "MATH",
+    "number": "203",
+    "title": "Probability and Statistics",
+    "credits": 3,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "school": "School of Science / Mathematics",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "HUMA101",
+    "prefix": "HUMA",
+    "number": "101",
+    "title": "Academic Writing",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "Humanities / General Education",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "HUMA102",
+    "prefix": "HUMA",
+    "number": "102",
+    "title": "Critical Thinking",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "Humanities / General Education",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "HUMA201",
+    "prefix": "HUMA",
+    "number": "201",
+    "title": "Research Methods",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "Humanities / General Education",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "LANG101",
+    "prefix": "LANG",
+    "number": "101",
+    "title": "English Communication I",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "Language / General Education",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "LANG102",
+    "prefix": "LANG",
+    "number": "102",
+    "title": "English Communication II",
+    "credits": 3,
+    "prerequisites": [
+      "LANG101"
+    ],
+    "school": "Language / General Education",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "BUS101",
+    "prefix": "BUS",
+    "number": "101",
+    "title": "Principles of Management",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Business",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "BUS201",
+    "prefix": "BUS",
+    "number": "201",
+    "title": "Business Law",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "School of Business",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "BUS301",
+    "prefix": "BUS",
+    "number": "301",
+    "title": "Strategic Management",
+    "credits": 3,
+    "prerequisites": [
+      "BUS101"
+    ],
+    "school": "School of Business",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "FIN201",
+    "prefix": "FIN",
+    "number": "201",
+    "title": "Corporate Finance",
+    "credits": 3,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "school": "School of Business / Finance",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  },
+  {
+    "code": "FIN301",
+    "prefix": "FIN",
+    "number": "301",
+    "title": "Financial Modelling",
+    "credits": 3,
+    "prerequisites": [
+      "FIN201"
+    ],
+    "school": "School of Business / Finance",
+    "sources": [
+      "zewail_knowledge_base"
+    ]
+  }
+]

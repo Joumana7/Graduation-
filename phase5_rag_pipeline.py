@@ -1,0 +1,370 @@
+#!/usr/bin/env python3
+"""
+phase5_rag_pipeline.py  —  Zewail Campus Digital Assistant
+═══════════════════════════════════════════════════════════════════════════════
+Phase 5: Core RAG pipeline — semantic retrieval + GPT-4o generation.
+
+Exports:
+  CampusRAG         — main class (retrieve + generate + answer)
+  RetrievedChunk    — typed result from retrieve()
+
+Standalone demo (5 sample queries):
+  python phase5_rag_pipeline.py
+"""
+from __future__ import annotations
+
+import os
+import re
+import time
+from dataclasses import dataclass, field
+from pathlib import Path
+from typing import Optional
+
+# Course code pattern: 2-6 uppercase letters + optional space + 3-4 digits
+_COURSE_CODE_RE = re.compile(r'\b([A-Z]{2,6})\s*(\d{3,4}[A-Z]?)\b')
+# Arabic name prefixes that distort embedding distance
+_ARABIC_PREFIX_RE = re.compile(
+    r'\b(El|Al|Abd\s*El|Abd\s*Al|Abd)\s+(?=[A-Za-z])', re.I
+)
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+PROJECT_ROOT    = Path(__file__).parent
+CHROMA_DIR      = PROJECT_ROOT / "db" / "chroma_db"
+COLLECTION_NAME = "zewail_campus"
+EMBED_MODEL     = "text-embedding-3-small"
+CHAT_MODEL      = "gpt-4o"
+
+
+# ── Data types ─────────────────────────────────────────────────────────────────
+
+@dataclass
+class RetrievedChunk:
+    chunk_id:    str
+    text:        str
+    source:      str
+    source_type: str
+    category:    str
+    page:        str
+    score:       float          # cosine similarity (0–1, higher = more relevant)
+
+
+# ── System prompt ──────────────────────────────────────────────────────────────
+
+SYSTEM_PROMPT = """\
+You are the official Academic Advisor for Zewail City of Science and Technology (UST).
+Help students with: academic policies, degree requirements, course prerequisites,
+graduation requirements, admissions, scholarships, faculty information, and campus life.
+
+IMPORTANT FACTS:
+- Zewail City (UST) has FOUR (4) undergraduate schools: Engineering (ENGR), CSAI, SCI, and BUS.
+- School of Engineering programs: Aerospace Engineering, Nanotechnology & Nanoelectronics,
+  Environmental Engineering (→ Chemical & Environmental from Fall 2026), Communications and
+  Information Engineering (CIE), Renewable Energy Engineering.
+- School of CSAI programs: Computer Science, DSAI, HCI, Computer Engineering (132 cr total).
+- School of Science programs: Biomedical Sciences, Nanoscience, Physics of the Universe.
+- School of Business programs: Finance, Business Analytics, Actuarial Analysis & Risk Mgmt,
+  Operations Management, Entrepreneurship & Innovation Management (114 cr total).
+
+RULES:
+1. REASON THEN ANSWER: Before writing your answer, silently identify: (a) which school/program
+   the question is about, (b) what specific facts are needed, (c) which context sources contain
+   those facts. Then write a clear, accurate answer based on those facts.
+2. Answer using the provided context documents. Extract and synthesise information
+   across multiple sources — do NOT ignore relevant facts in table or list format.
+3. Never invent course codes, credit hours, dates, names, or policy details not in the context.
+4. If the context genuinely does not contain the answer, say:
+   "I don't have that specific detail in my knowledge base. Please contact the
+   Academic Advising Office or visit https://www.zewailcity.edu.eg/contact"
+5. Do NOT include any source citations, footnotes, or "[Source X]" references in
+   your answer. Sources are shown to the student separately — keep the answer clean.
+6. Be precise and helpful. For multi-step questions walk through each step.
+7. Use the student's profile (program, semester, GPA) to personalise answers when given.
+8. Credit hours / graduation requirements: look for explicit numbers like "132 credit hours",
+   "114 credit hours", "minimum of X credits" and state them clearly with the correct program.
+9. School-specific queries: when the question mentions Engineering/ENGR, CSAI, SCI, or BUS,
+   focus on that school's data. Do NOT mix graduation requirements across schools.
+10. Course code lookups (e.g. "what is CSAI 201?"): look for the code in table rows
+    "CODE | Course Title | Cr | L | P | Prerequisite" and extract the Course Title.
+    Also check prerequisite lists: "CSAI 201, Data Structures" means CSAI 201 = Data Structures.
+11. Faculty / director queries: look for faculty listings with names, titles, programs,
+    and emails. Match partial names and list all found faculty for the requested school.
+12. Name queries: context may use different transliterations of Arabic names.
+    If a name sounds similar to the one asked about, provide their information and note
+    the exact spelling as it appears in the records.
+13. Follow-up questions: use the conversation history to understand what school/topic was
+    being discussed. "So they are 3 or 2?" after a question about Engineering programs means
+    "how many Engineering programs?" — answer based on that context.
+"""
+
+
+# ── CampusRAG class ────────────────────────────────────────────────────────────
+
+class CampusRAG:
+    """
+    Retrieve-and-generate pipeline for Zewail City academic advising.
+
+    Usage:
+        rag = CampusRAG()
+        answer, sources = rag.answer("What courses are required for CSAI?")
+    """
+
+    def __init__(
+        self,
+        chroma_dir:      Optional[str] = None,
+        collection_name: str = COLLECTION_NAME,
+        embed_model:     str = EMBED_MODEL,
+        chat_model:      str = CHAT_MODEL,
+        openai_api_key:  Optional[str] = None,
+    ) -> None:
+        import chromadb
+        from openai import OpenAI
+
+        api_key = openai_api_key or os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY not set. Create a .env file or set the env var.")
+
+        self._oai            = OpenAI(api_key=api_key)
+        self._embed_model    = embed_model
+        self._chat_model     = chat_model
+
+        persist = str(chroma_dir or CHROMA_DIR)
+        db      = chromadb.PersistentClient(path=persist)
+        self._col = db.get_collection(collection_name)
+
+    # ── Retrieval ───────────────────────────────────────────────────────────────
+
+    def _embed(self, text: str) -> list[float]:
+        return self._oai.embeddings.create(
+            model=self._embed_model, input=[text]
+        ).data[0].embedding
+
+    def _query_chroma(
+        self,
+        emb: list[float],
+        n: int,
+        where_doc: dict | None = None,
+    ) -> list[RetrievedChunk]:
+        kwargs: dict = dict(
+            query_embeddings=[emb],
+            n_results=max(1, min(n, self._col.count())),
+            include=["documents", "metadatas", "distances"],
+        )
+        if where_doc:
+            kwargs["where_document"] = where_doc
+        results = self._col.query(**kwargs)
+        chunks = []
+        for cid, doc, meta, dist in zip(
+            results["ids"][0],
+            results["documents"][0],
+            results["metadatas"][0],
+            results["distances"][0],
+        ):
+            chunks.append(RetrievedChunk(
+                chunk_id    = cid,
+                text        = doc,
+                source      = meta.get("source", ""),
+                source_type = meta.get("source_type", ""),
+                category    = meta.get("category", ""),
+                page        = meta.get("page", ""),
+                score       = round(max(0.0, 1.0 - dist), 4),
+            ))
+        return chunks
+
+    def retrieve(
+        self,
+        query: str,
+        top_k: int = 6,
+    ) -> tuple[list[RetrievedChunk], str]:
+        """
+        Smart retrieval returning (chunks, query_note).
+
+        Enhancements:
+        1. Arabic name-prefix normalisation — strips El/Al/Abd before embedding
+           so "Dr el Reabey" finds "Dr Rabeay" instead of unrelated El-X names.
+        2. Course-code anchor — when the query names a course code (e.g. CSAI 201)
+           the best 2 matching chunks are *guaranteed* to appear in the result,
+           bypassing the per-source diversity cap that would otherwise block them.
+        3. Source diversity — max 2 chunks per source file so near-duplicate table
+           pages from the same PDF cannot flood all result slots.
+
+        Returns a (chunks, note) tuple where note is injected into the GPT context
+        when query normalisation changed the search terms.
+        """
+        query_note = ""
+
+        # ── 1. Normalise query before embedding ─────────────────────────────
+        normalised = _ARABIC_PREFIX_RE.sub("", query).strip() or query
+        if normalised != query:
+            query_note = (
+                f"[Search note: the query '{query}' was normalised to '{normalised}' "
+                f"by removing Arabic name prefixes. Names in the retrieved documents "
+                f"may use different transliterations of the same person's name — treat "
+                f"phonetically similar names as referring to the same individual.]"
+            )
+        emb = self._embed(normalised)
+
+        # ── 2. Semantic search over full collection ──────────────────────────
+        n_candidates = min(top_k * 4, self._col.count())
+        candidates: list[RetrievedChunk] = self._query_chroma(emb, n_candidates)
+
+        # ── 3. Course-code anchor (guaranteed slots) ─────────────────────────
+        guaranteed: list[RetrievedChunk] = []
+        guaranteed_ids: set[str] = set()
+        code_match = _COURSE_CODE_RE.search(query.upper())
+        if code_match:
+            code_str = f"{code_match.group(1)} {code_match.group(2)}"
+            try:
+                anchored = self._query_chroma(
+                    emb,
+                    min(top_k * 2, self._col.count()),
+                    where_doc={"$contains": code_str},
+                )
+                anchored.sort(key=lambda c: -c.score)
+                # Guarantee the best 2 anchored chunks regardless of diversity
+                guaranteed = anchored[:2]
+                guaranteed_ids = {c.chunk_id for c in guaranteed}
+            except Exception:
+                pass
+
+        # ── 4. Source-diversity filter on remaining slots ────────────────────
+        # Pre-seed source counts from guaranteed slots so fill respects them
+        source_counts: dict[str, int] = {}
+        for g in guaranteed:
+            source_counts[g.source] = source_counts.get(g.source, 0) + 1
+
+        remaining_slots = top_k - len(guaranteed)
+        diverse: list[RetrievedChunk] = list(guaranteed)
+
+        candidates.sort(key=lambda c: -c.score)
+        for c in candidates:
+            if c.chunk_id in guaranteed_ids:
+                continue
+            cnt = source_counts.get(c.source, 0)
+            if cnt < 2:
+                diverse.append(c)
+                source_counts[c.source] = cnt + 1
+            if len(diverse) - len(guaranteed) == remaining_slots:
+                break
+
+        return diverse, query_note
+
+    # ── Generation ──────────────────────────────────────────────────────────────
+
+    def generate(
+        self,
+        query:        str,
+        chunks:       list[RetrievedChunk],
+        history:      Optional[list[dict]] = None,
+        temperature:  float = 0.2,
+        query_note:   str = "",
+    ) -> str:
+        """
+        Call GPT-4o with the retrieved context and conversation history.
+        Returns the assistant's answer as a string.
+        """
+        if not chunks:
+            context_text = "No relevant documents found in the knowledge base."
+        else:
+            parts = []
+            if query_note:
+                parts.append(query_note)
+            for i, c in enumerate(chunks, 1):
+                src_label = c.source
+                if c.page:
+                    src_label += f" (page {c.page})"
+                parts.append(
+                    f"[Source {i} | {c.category} | {src_label}]\n{c.text}"
+                )
+            context_text = "\n\n---\n\n".join(parts)
+
+        messages: list[dict] = [{"role": "system", "content": SYSTEM_PROMPT}]
+
+        # Inject conversation history (keep last 6 turns to stay within context)
+        if history:
+            messages.extend(history[-12:])
+
+        messages.append({
+            "role": "user",
+            "content": (
+                f"CONTEXT FROM KNOWLEDGE BASE:\n{context_text}\n\n"
+                f"STUDENT QUESTION:\n{query}"
+            ),
+        })
+
+        resp = self._oai.chat.completions.create(
+            model=self._chat_model,
+            messages=messages,
+            temperature=temperature,
+            max_tokens=1200,
+        )
+        return resp.choices[0].message.content.strip()
+
+    # ── Combined entry-point ────────────────────────────────────────────────────
+
+    def answer(
+        self,
+        query:    str,
+        history:  Optional[list[dict]] = None,
+        top_k:    int   = 6,
+    ) -> tuple[str, list[RetrievedChunk]]:
+        """
+        Full pipeline: retrieve relevant chunks → generate answer.
+
+        Returns:
+            (answer_text, retrieved_chunks)
+        """
+        chunks, note = self.retrieve(query, top_k=top_k)
+        answer = self.generate(query, chunks, history=history, query_note=note)
+        return answer, chunks
+
+
+# ── Standalone demo ────────────────────────────────────────────────────────────
+
+SAMPLE_QUERIES = [
+    "What are the graduation requirements for undergraduate students at Zewail City?",
+    "Can you explain the academic probation policy?",
+    "What scholarships are available for undergraduate students?",
+    "What research institutes are available at Zewail City?",
+    "How many credit hours does a student need to complete to graduate?",
+]
+
+
+def demo() -> None:
+    print("Phase 5 - RAG Pipeline Demo")
+    print("=" * 62)
+
+    try:
+        rag = CampusRAG()
+    except Exception as exc:
+        print(f"ERROR initialising RAG pipeline: {exc}")
+        print("Make sure Phase 4 has been run and OPENAI_API_KEY is set.")
+        return
+
+    print(f"  Collection size : {rag._col.count()} chunks")
+    print(f"  Chat model      : {rag._chat_model}")
+    print()
+
+    for i, q in enumerate(SAMPLE_QUERIES, 1):
+        print(f"Query {i}/{len(SAMPLE_QUERIES)}: {q}")
+        print("-" * 62)
+        t0 = time.time()
+        ans, chunks = rag.answer(q)
+        elapsed = time.time() - t0
+
+        print(f"Answer ({elapsed:.1f}s):\n{ans}")
+        print()
+        print("Retrieved sources:")
+        for c in chunks:
+            src = c.source
+            if c.page:
+                src += f" p.{c.page}"
+            print(f"  [{c.score:.3f}] [{c.category}] {src}")
+        print("=" * 62)
+        print()
+
+
+if __name__ == "__main__":
+    demo()

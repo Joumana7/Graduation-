@@ -1,0 +1,934 @@
+[
+  {
+    "course": "BUS399",
+    "requires": "BUS399"
+  },
+  {
+    "course": "BUS499",
+    "requires": "BUS499"
+  },
+  {
+    "course": "CSAI100",
+    "requires": "CSAI100"
+  },
+  {
+    "course": "CSAI101",
+    "requires": "CSAI101"
+  },
+  {
+    "course": "CSAI102",
+    "requires": "CSAI102"
+  },
+  {
+    "course": "CSAI151",
+    "requires": "CSAI101"
+  },
+  {
+    "course": "CSAI151",
+    "requires": "CSAI151"
+  },
+  {
+    "course": "CSAI201",
+    "requires": "CSAI151"
+  },
+  {
+    "course": "CSAI201",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "CSAI201",
+    "requires": "MATH105"
+  },
+  {
+    "course": "CSAI202",
+    "requires": "CSAI151"
+  },
+  {
+    "course": "CSAI202",
+    "requires": "CSAI202"
+  },
+  {
+    "course": "CSAI202",
+    "requires": "CSAI302"
+  },
+  {
+    "course": "CSAI203",
+    "requires": "CSAI101"
+  },
+  {
+    "course": "CSAI203",
+    "requires": "CSAI203"
+  },
+  {
+    "course": "CSAI203",
+    "requires": "IT308"
+  },
+  {
+    "course": "CSAI203",
+    "requires": "CSAI253"
+  },
+  {
+    "course": "CSAI204",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "CSAI204",
+    "requires": "CSAI204"
+  },
+  {
+    "course": "CSAI205",
+    "requires": "CSAI205"
+  },
+  {
+    "course": "CSAI251",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "CSAI251",
+    "requires": "CSAI251"
+  },
+  {
+    "course": "CSAI252",
+    "requires": "CSAI252"
+  },
+  {
+    "course": "CSAI253",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "CSAI253",
+    "requires": "MATH105"
+  },
+  {
+    "course": "CSAI253",
+    "requires": "CSAI253"
+  },
+  {
+    "course": "CSAI301",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "CSAI301",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "CSAI302",
+    "requires": "CSAI202"
+  },
+  {
+    "course": "CSAI302",
+    "requires": "CSAI302"
+  },
+  {
+    "course": "CSAI351",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "CSAI351",
+    "requires": "CSAI351"
+  },
+  {
+    "course": "CSAI399",
+    "requires": "CSAI399"
+  },
+  {
+    "course": "CSAI498",
+    "requires": "CSAI498"
+  },
+  {
+    "course": "CSAI499",
+    "requires": "CSAI498"
+  },
+  {
+    "course": "CSAI499",
+    "requires": "CSAI499"
+  },
+  {
+    "course": "DSAI103",
+    "requires": "CSAI101"
+  },
+  {
+    "course": "DSAI103",
+    "requires": "DSAI103"
+  },
+  {
+    "course": "DSAI104",
+    "requires": "CSAI101"
+  },
+  {
+    "course": "DSAI104",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "DSAI201",
+    "requires": "CSAI202"
+  },
+  {
+    "course": "DSAI203",
+    "requires": "DSAI103"
+  },
+  {
+    "course": "DSAI305",
+    "requires": "CSAI253"
+  },
+  {
+    "course": "DSAI305",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "DSAI307",
+    "requires": "MATH105"
+  },
+  {
+    "course": "MATH105",
+    "requires": "MATH105"
+  },
+  {
+    "course": "MATH105",
+    "requires": "MATH103"
+  },
+  {
+    "course": "DSAI308",
+    "requires": "CSAI253"
+  },
+  {
+    "course": "DSAI308",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI325",
+    "requires": "MATH105"
+  },
+  {
+    "course": "DSAI352",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI353",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI402",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI406",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI413",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI413",
+    "requires": "DSAI413"
+  },
+  {
+    "course": "DSAI414",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI415",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI416",
+    "requires": "DSAI308"
+  },
+  {
+    "course": "DSAI417",
+    "requires": "DSAI456"
+  },
+  {
+    "course": "DSAI456",
+    "requires": "DSAI456"
+  },
+  {
+    "course": "DSAI418",
+    "requires": "DSAI456"
+  },
+  {
+    "course": "DSAI427",
+    "requires": "CSAI253"
+  },
+  {
+    "course": "DSAI431",
+    "requires": "MATH205"
+  },
+  {
+    "course": "MATH205",
+    "requires": "MATH205"
+  },
+  {
+    "course": "DSAI433",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "DSAI473",
+    "requires": "DSAI473"
+  },
+  {
+    "course": "IT101",
+    "requires": "CSAI101"
+  },
+  {
+    "course": "IT102",
+    "requires": "CSAI101"
+  },
+  {
+    "course": "IT220",
+    "requires": "CSAI252"
+  },
+  {
+    "course": "IT222",
+    "requires": "CSAI252"
+  },
+  {
+    "course": "IT308",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "IT308",
+    "requires": "IT308"
+  },
+  {
+    "course": "IT308",
+    "requires": "IT310"
+  },
+  {
+    "course": "IT310",
+    "requires": "CSAI252"
+  },
+  {
+    "course": "IT310",
+    "requires": "IT310"
+  },
+  {
+    "course": "IT401",
+    "requires": "CSAI252"
+  },
+  {
+    "course": "IT401",
+    "requires": "IT401"
+  },
+  {
+    "course": "MATH103",
+    "requires": "MATH103"
+  },
+  {
+    "course": "MATH103",
+    "requires": "MATH104"
+  },
+  {
+    "course": "MATH104",
+    "requires": "MATH104"
+  },
+  {
+    "course": "MATH307",
+    "requires": "MATH104"
+  },
+  {
+    "course": "MATH303",
+    "requires": "MATH103"
+  },
+  {
+    "course": "MATH303",
+    "requires": "MATH104"
+  },
+  {
+    "course": "PHYS103",
+    "requires": "MATH103"
+  },
+  {
+    "course": "PHYS113",
+    "requires": "MATH103"
+  },
+  {
+    "course": "BIOL101",
+    "requires": "BIOL101"
+  },
+  {
+    "course": "BIOL101",
+    "requires": "MATH102"
+  },
+  {
+    "course": "BIOL101",
+    "requires": "CSCI101"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "BIOL102"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "CSCI101"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "MATH102"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "CHEM202"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "PHYS201"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "CHEM201"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "BMS204"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "BMS211"
+  },
+  {
+    "course": "BIOL102",
+    "requires": "BMS212"
+  },
+  {
+    "course": "BIOL112",
+    "requires": "BIOL101"
+  },
+  {
+    "course": "CHEM201",
+    "requires": "CHEM201"
+  },
+  {
+    "course": "CHEM201",
+    "requires": "CHEM203"
+  },
+  {
+    "course": "CHEM201",
+    "requires": "BMS201"
+  },
+  {
+    "course": "CHEM201",
+    "requires": "PHYS202"
+  },
+  {
+    "course": "MATH201",
+    "requires": "MATH201"
+  },
+  {
+    "course": "MATH201",
+    "requires": "BMS321"
+  },
+  {
+    "course": "MATH201",
+    "requires": "MATH202"
+  },
+  {
+    "course": "MATH201",
+    "requires": "MATH403"
+  },
+  {
+    "course": "MATH201",
+    "requires": "MATH102"
+  },
+  {
+    "course": "MATH201",
+    "requires": "CHEM202"
+  },
+  {
+    "course": "MATH201",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "CHEM202"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "PHYS201"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "BMS333"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "CHEM101"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "BIOL102"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "PHYS202"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "MATH202"
+  },
+  {
+    "course": "CHEM202",
+    "requires": "BMS339"
+  },
+  {
+    "course": "CHEM203",
+    "requires": "CHEM203"
+  },
+  {
+    "course": "CHEM203",
+    "requires": "BMS339"
+  },
+  {
+    "course": "CHEM203",
+    "requires": "BMS333"
+  },
+  {
+    "course": "CHEM203",
+    "requires": "CHEM201"
+  },
+  {
+    "course": "BIOL202",
+    "requires": "BIOL202"
+  },
+  {
+    "course": "BIOL202",
+    "requires": "BIOL204"
+  },
+  {
+    "course": "CHEM101",
+    "requires": "CHEM101"
+  },
+  {
+    "course": "CHEM101",
+    "requires": "CHEM103"
+  },
+  {
+    "course": "CHEM101",
+    "requires": "PHYS102"
+  },
+  {
+    "course": "CHEM101",
+    "requires": "PHYS202"
+  },
+  {
+    "course": "CHEM102",
+    "requires": "CHEM102"
+  },
+  {
+    "course": "CHEM102",
+    "requires": "MATSCI201"
+  },
+  {
+    "course": "CHEM102",
+    "requires": "PHYS102"
+  },
+  {
+    "course": "CHEM112",
+    "requires": "CHEM101"
+  },
+  {
+    "course": "CHEM211",
+    "requires": "CHEM101"
+  },
+  {
+    "course": "CHEM211",
+    "requires": "CHEM102"
+  },
+  {
+    "course": "ENGR207",
+    "requires": "MATH102"
+  },
+  {
+    "course": "ENGR207",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "ENGR207",
+    "requires": "ENGR207"
+  },
+  {
+    "course": "ENGR207",
+    "requires": "MATH201"
+  },
+  {
+    "course": "MATH102",
+    "requires": "MATH102"
+  },
+  {
+    "course": "MATH102",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "MATH102",
+    "requires": "MATH101"
+  },
+  {
+    "course": "MATH101",
+    "requires": "MATH101"
+  },
+  {
+    "course": "MATH101",
+    "requires": "MATH201"
+  },
+  {
+    "course": "MATH202",
+    "requires": "MATH102"
+  },
+  {
+    "course": "MATH202",
+    "requires": "MATH202"
+  },
+  {
+    "course": "MATH301",
+    "requires": "MATH102"
+  },
+  {
+    "course": "MATH302",
+    "requires": "MATH202"
+  },
+  {
+    "course": "MATH306",
+    "requires": "MATH201"
+  },
+  {
+    "course": "MATH306",
+    "requires": "MATH202"
+  },
+  {
+    "course": "MATH306",
+    "requires": "MATH306"
+  },
+  {
+    "course": "MATH310",
+    "requires": "MATH201"
+  },
+  {
+    "course": "MATH403",
+    "requires": "MATH101"
+  },
+  {
+    "course": "MATH403",
+    "requires": "MATH201"
+  },
+  {
+    "course": "MATH403",
+    "requires": "MATH403"
+  },
+  {
+    "course": "PHYS202",
+    "requires": "PHYS202"
+  },
+  {
+    "course": "PHYS202",
+    "requires": "MATH202"
+  },
+  {
+    "course": "PHYS202",
+    "requires": "PHYS102"
+  },
+  {
+    "course": "PHYS202",
+    "requires": "PHYS201"
+  },
+  {
+    "course": "PHYS202",
+    "requires": "NANOSC303"
+  },
+  {
+    "course": "PHYS102",
+    "requires": "PHYS102"
+  },
+  {
+    "course": "PHYS102",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "PHYS102",
+    "requires": "MATH101"
+  },
+  {
+    "course": "PHYS102",
+    "requires": "MATH202"
+  },
+  {
+    "course": "PHYS102",
+    "requires": "MATH102"
+  },
+  {
+    "course": "PHYS101",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "PHYS101",
+    "requires": "MATH101"
+  },
+  {
+    "course": "PHYS201",
+    "requires": "PHYS201"
+  },
+  {
+    "course": "PHYS211",
+    "requires": "PHYS102"
+  },
+  {
+    "course": "PHYS211",
+    "requires": "MATH102"
+  },
+  {
+    "course": "PHYS204",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "PHYS205",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "PHYS205",
+    "requires": "PHYS205"
+  },
+  {
+    "course": "PHYS205",
+    "requires": "MATH403"
+  },
+  {
+    "course": "PHYS205",
+    "requires": "MATH201"
+  },
+  {
+    "course": "PHYS208",
+    "requires": "PHYS102"
+  },
+  {
+    "course": "PHYS208",
+    "requires": "PHYS208"
+  },
+  {
+    "course": "PHYS210",
+    "requires": "PHYS102"
+  },
+  {
+    "course": "PHYS218",
+    "requires": "MATH102"
+  },
+  {
+    "course": "PHYS308",
+    "requires": "PHYS208"
+  },
+  {
+    "course": "PHYS311",
+    "requires": "PHYS201"
+  },
+  {
+    "course": "PHYS311",
+    "requires": "PHYS311"
+  },
+  {
+    "course": "PHYS316",
+    "requires": "PHYS316"
+  },
+  {
+    "course": "PHYS323",
+    "requires": "PHYS202"
+  },
+  {
+    "course": "PHYS323",
+    "requires": "PHYS323"
+  },
+  {
+    "course": "PHYS326",
+    "requires": "PHYS346"
+  },
+  {
+    "course": "PHYS326",
+    "requires": "MATH201"
+  },
+  {
+    "course": "PHYS326",
+    "requires": "MATH202"
+  },
+  {
+    "course": "PHYS346",
+    "requires": "PHYS346"
+  },
+  {
+    "course": "PHYS346",
+    "requires": "MATH201"
+  },
+  {
+    "course": "PHYS346",
+    "requires": "MATH202"
+  },
+  {
+    "course": "PHYS346",
+    "requires": "PHYS316"
+  },
+  {
+    "course": "PHYS327",
+    "requires": "PHYS205"
+  },
+  {
+    "course": "PHYS331",
+    "requires": "PHYS205"
+  },
+  {
+    "course": "PHYS331",
+    "requires": "PHYS331"
+  },
+  {
+    "course": "PHYS348",
+    "requires": "PHYS323"
+  },
+  {
+    "course": "PHYS348",
+    "requires": "PHYS348"
+  },
+  {
+    "course": "PHYS356",
+    "requires": "MATH201"
+  },
+  {
+    "course": "PHYS364",
+    "requires": "BIOL102"
+  },
+  {
+    "course": "PHYS364",
+    "requires": "CHEM202"
+  },
+  {
+    "course": "PHYS364",
+    "requires": "PHYS201"
+  },
+  {
+    "course": "PHYS399",
+    "requires": "PHYS399"
+  },
+  {
+    "course": "PHYS405",
+    "requires": "PHYS205"
+  },
+  {
+    "course": "PHYS405",
+    "requires": "PHYS405"
+  },
+  {
+    "course": "PHYS416",
+    "requires": "PHYS205"
+  },
+  {
+    "course": "PHYS416",
+    "requires": "PHYS416"
+  },
+  {
+    "course": "PHYS420",
+    "requires": "PHYS205"
+  },
+  {
+    "course": "PHYS430",
+    "requires": "PHYS348"
+  },
+  {
+    "course": "PHYS430",
+    "requires": "PHYS430"
+  },
+  {
+    "course": "PHYS431",
+    "requires": "PHYS323"
+  },
+  {
+    "course": "PHYS431",
+    "requires": "PHYS431"
+  },
+  {
+    "course": "PHYS432",
+    "requires": "PHYS101"
+  },
+  {
+    "course": "PHYS438",
+    "requires": "PHYS205"
+  },
+  {
+    "course": "PHYS450",
+    "requires": "CSCI101"
+  },
+  {
+    "course": "PHYS455",
+    "requires": "PHYS316"
+  },
+  {
+    "course": "PHYS498",
+    "requires": "PHYS498"
+  },
+  {
+    "course": "PHYS499",
+    "requires": "PHYS498"
+  },
+  {
+    "course": "CSAI303",
+    "requires": "CSAI302"
+  },
+  {
+    "course": "CSAI304",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "CSAI305",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "CSAI402",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "DSAI301",
+    "requires": "DSAI201"
+  },
+  {
+    "course": "DSAI302",
+    "requires": "DSAI201"
+  },
+  {
+    "course": "DSAI401",
+    "requires": "DSAI301"
+  },
+  {
+    "course": "DSAI401",
+    "requires": "CSAI301"
+  },
+  {
+    "course": "CSAI206",
+    "requires": "CSAI201"
+  },
+  {
+    "course": "CSAI207",
+    "requires": "CSAI205"
+  },
+  {
+    "course": "CSAI208",
+    "requires": "CSAI204"
+  },
+  {
+    "course": "CSAI209",
+    "requires": "CSAI102"
+  },
+  {
+    "course": "MATH203",
+    "requires": "MATH101"
+  },
+  {
+    "course": "LANG102",
+    "requires": "LANG101"
+  },
+  {
+    "course": "BUS301",
+    "requires": "BUS101"
+  },
+  {
+    "course": "FIN201",
+    "requires": "MATH101"
+  },
+  {
+    "course": "FIN301",
+    "requires": "FIN201"
+  }
+]

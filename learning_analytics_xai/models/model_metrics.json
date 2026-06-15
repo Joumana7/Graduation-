@@ -1,0 +1,89 @@
+{
+  "gpa_regression": {
+    "linear_regression": {
+      "r2": 0.9863547682762146,
+      "mae": 0.07672690600156784,
+      "rmse": 0.13258067402274643
+    },
+    "xgboost": {
+      "r2": 0.9988707304000854,
+      "mae": 0.028779160231351852,
+      "rmse": 0.03814096479790007
+    },
+    "lightgbm": {
+      "r2": 0.9989934727663592,
+      "mae": 0.0273335365990413,
+      "rmse": 0.03600831808330464
+    }
+  },
+  "risk_classification": {
+    "logistic_regression": {
+      "accuracy": 0.9733333333333334,
+      "f1_weighted": 0.973441625933728
+    },
+    "xgboost": {
+      "accuracy": 0.9886666666666667,
+      "f1_weighted": 0.9887757425159693,
+      "auc": 0.9994631244412557
+    },
+    "lightgbm": {
+      "accuracy": 0.9886666666666667,
+      "f1_weighted": 0.9887746720876214,
+      "auc": 0.9995928024829269
+    }
+  },
+  "cv_gpa_r2": {
+    "mean": 0.9988502621650696,
+    "std": 7.639479304953934e-05
+  },
+  "cv_risk_f1": {
+    "mean": 0.9868149178916642,
+    "std": 0.0019958257083296013
+  },
+  "gpa_feature_importance": {
+    "avg_attendance": 0.00013768261123914272,
+    "avg_assignments": 0.003171448362991214,
+    "avg_quizzes": 0.000815375882666558,
+    "avg_labs": 0.008996333926916122,
+    "avg_midterm": 0.09657604247331619,
+    "avg_final": 0.11795329302549362,
+    "avg_overall": 0.5264472961425781,
+    "semester": 4.8575187975075096e-05,
+    "credits_registered": 5.685391079168767e-05,
+    "credits_passed": 0.00023470260202884674,
+    "failed_courses": 0.012284642085433006,
+    "attendance_risk_score": 5.273520218906924e-05,
+    "course_difficulty_index": 4.362564141047187e-05,
+    "failed_course_ratio": 0.16374970972537994,
+    "performance_trend": 6.82811441947706e-05,
+    "credit_completion_ratio": 0.06902091950178146,
+    "academic_consistency": 0.00016806919302325696,
+    "study_efficiency": 4.309782161726616e-05,
+    "semester_momentum": 4.277309562894516e-05,
+    "programme_encoded": 4.250909842085093e-05,
+    "school_encoded": 4.598369559971616e-05
+  },
+  "risk_feature_importance": {
+    "avg_attendance": 0.06544598191976547,
+    "avg_assignments": 0.008828527294099331,
+    "avg_quizzes": 0.018828732892870903,
+    "avg_labs": 0.02878270111978054,
+    "avg_midterm": 0.0852208286523819,
+    "avg_final": 0.09547960758209229,
+    "avg_overall": 0.39541587233543396,
+    "semester": 0.005923402961343527,
+    "credits_registered": 0.005290654022246599,
+    "credits_passed": 0.0032590364571660757,
+    "failed_courses": 0.10617081075906754,
+    "attendance_risk_score": 0.04504387080669403,
+    "course_difficulty_index": 0.004465056117624044,
+    "failed_course_ratio": 0.0460941344499588,
+    "performance_trend": 0.004525396972894669,
+    "credit_completion_ratio": 0.06021887809038162,
+    "academic_consistency": 0.004464245866984129,
+    "study_efficiency": 0.0038352508563548326,
+    "semester_momentum": 0.005032448563724756,
+    "programme_encoded": 0.0037476406432688236,
+    "school_encoded": 0.0039270659908652306
+  }
+}

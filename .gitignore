@@ -1,0 +1,48 @@
+# Environment — NEVER commit API keys
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+streamlit_log.txt
+streamlit_err.txt
+streamlit_out.txt
+hello_err.txt
+st_ver_err.txt
+st_out.txt
+st_err.txt
+import_check_out.txt
+import_check_err.txt
+ver_err.txt
+ver.txt
+pkg_test.txt
+pkg_err.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large generated data (regenerate with phase scripts)
+data/raw/
+data/sessions/
+
+# ChromaDB binary store (rebuild with phase4)
+db/

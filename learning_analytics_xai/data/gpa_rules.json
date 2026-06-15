@@ -1,0 +1,73 @@
+{
+  "scale": [
+    {
+      "grade": "A+",
+      "min_percent": 97,
+      "gpa_points": 4.0
+    },
+    {
+      "grade": "A",
+      "min_percent": 93,
+      "gpa_points": 4.0
+    },
+    {
+      "grade": "A-",
+      "min_percent": 90,
+      "gpa_points": 3.7
+    },
+    {
+      "grade": "B+",
+      "min_percent": 87,
+      "gpa_points": 3.3
+    },
+    {
+      "grade": "B",
+      "min_percent": 83,
+      "gpa_points": 3.0
+    },
+    {
+      "grade": "B-",
+      "min_percent": 80,
+      "gpa_points": 2.7
+    },
+    {
+      "grade": "C+",
+      "min_percent": 77,
+      "gpa_points": 2.3
+    },
+    {
+      "grade": "C",
+      "min_percent": 73,
+      "gpa_points": 2.0
+    },
+    {
+      "grade": "C-",
+      "min_percent": 70,
+      "gpa_points": 1.7
+    },
+    {
+      "grade": "D+",
+      "min_percent": 67,
+      "gpa_points": 1.3
+    },
+    {
+      "grade": "D",
+      "min_percent": 60,
+      "gpa_points": 1.0
+    },
+    {
+      "grade": "F",
+      "min_percent": 0,
+      "gpa_points": 0.0
+    }
+  ],
+  "graduation_minimum": 2.0,
+  "probation_threshold": 1.7,
+  "dismissal_threshold": 1.0,
+  "good_standing_minimum": 2.0,
+  "honours_threshold": 3.5,
+  "high_honours_threshold": 3.8,
+  "max_gpa": 4.0,
+  "passing_grade": "D",
+  "credit_hours_scale": "4.0"
+}
