@@ -126,7 +126,20 @@ class CampusRAG:
         if not api_key:
             raise ValueError("OPENAI_API_KEY not set. Create a .env file or set the env var.")
 
-        self._oai            = OpenAI(api_key=api_key)
+        # Auto-detect OpenRouter vs OpenAI key
+        _OPENROUTER_BASE = "https://openrouter.ai/api/v1"
+        if api_key.startswith("sk-or-v1-"):
+            # OpenRouter for chat; OpenAI for embeddings (OpenRouter has no embedding API)
+            self._oai_chat  = OpenAI(api_key=api_key, base_url=_OPENROUTER_BASE)
+            embed_key = os.environ.get("OPENAI_EMBED_KEY") or api_key
+            self._oai_embed = OpenAI(api_key=embed_key)
+            self._oai       = self._oai_chat          # fallback alias
+            if chat_model == CHAT_MODEL:
+                self._chat_model = "openai/gpt-4o"    # OpenRouter model name
+        else:
+            self._oai       = OpenAI(api_key=api_key)
+            self._oai_chat  = self._oai
+            self._oai_embed = self._oai
         self._embed_model    = embed_model
         self._chat_model     = chat_model
 
@@ -137,7 +150,7 @@ class CampusRAG:
     # ── Retrieval ───────────────────────────────────────────────────────────────
 
     def _embed(self, text: str) -> list[float]:
-        return self._oai.embeddings.create(
+        return self._oai_embed.embeddings.create(
             model=self._embed_model, input=[text]
         ).data[0].embedding
 
@@ -294,7 +307,7 @@ class CampusRAG:
             ),
         })
 
-        resp = self._oai.chat.completions.create(
+        resp = self._oai_chat.chat.completions.create(
             model=self._chat_model,
             messages=messages,
             temperature=temperature,
